@@ -22,8 +22,8 @@ Item {
     height: dial.height + networkIndicator.height + networkIndicator.anchors.topMargin
 
     property alias header: mainText.text
+    property alias headerSize: mainText.font.pixelSize
     property alias subText: subText.text
-    property int headerSize: 32
     property bool connected: nodeModel.numOutboundPeers > 0
     property bool synced: nodeModel.verificationProgress > 0.999
     property string syncProgress: formatProgressPercentage(nodeModel.verificationProgress * 100)
