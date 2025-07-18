@@ -15,6 +15,7 @@ Currently, tested on Ubuntu 22.04:
 ```
 git clone https://github.com/D33r-Gee/bitcoin-core-app-submodule
 cd bitcoin-core-app-submodule
+git checkout qm-loadsnapshot-sync
 git submodule update --init --recursive
 cmake -B build
 cmake --build build -j 8
