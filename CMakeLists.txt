@@ -120,7 +120,7 @@ target_link_libraries(bitcoin-core-app
   PRIVATE
     univalue
     core_interface
-    bitcoin_node
     bitcoinqml
     bitcoinqt
+    bitcoin_node
 )
